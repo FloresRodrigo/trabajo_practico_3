@@ -3,122 +3,126 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>PV2024</title>
+		<link rel="stylesheet" href="/css/estilos.css">
 	</head>
 	<body>
-		<header>
+		<header id="header">
 			<h1>Programacion Visual 2024</h1>
-			<nav>
+			<nav class="nav-bar">
 				<ul>
 					<li>
-						<a href="#">Introduccion</a>
+						<a href="#" class="nav-link">Introduccion</a>
 					</li>
 					<li>
-						<a href="#">Conceptos introductorios</a>
+						<a href="#" class="nav-link">Conceptos introductorios</a>
 					</li>
 					<li>
-						<a href="#">Herramientas para el desarollo</a>
+						<a href="#" class="nav-link">Herramientas para el desarollo</a>
+					</li>
+					<li>
+						<a href="/formulario" class="nav-link">Ir al formulario</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		
-		<main>
-			<section>
-				<h2>Introduccion al curso de Programacion Visual 2024</h2>
-				<p>En esta materia se buscara introducir a los alumnos a trabajar con Java, IDEs, Git, y servicios web(HTML, CSS, etc).</p>
-				<h3>Programa de la materia</h3>
-				<p>A lo largo de la cursada se veran varios temas, entre ellos estan los siguientes:</p>
-				<ul>
+		<main class="main">
+			<section class="section-main">
+				<h2 class="h2-separar">Introduccion al curso de Programacion Visual 2024</h2>
+				<p class="p">En esta materia se buscara introducir a los alumnos a trabajar con Java, IDEs, Git, y servicios web(HTML, CSS, etc).</p>
+				<h3 class="h3">Programa de la materia</h3>
+				<p class="p">A lo largo de la cursada se veran varios temas, entre ellos estan los siguientes:</p>
+				<ul class="ul">
 					<li>
-						<p>Semana 1: Introduccion a Java e instalacion de Spring Tool Suite.</p>
+						<p class="p">Semana 1: Introduccion a Java e instalacion de Spring Tool Suite.</p>
 					</li>
 					<li>
-						<p>Semana 2: Constructores, metodos, y tipo de dato String y Fecha.</p>
+						<p class="p">Semana 2: Constructores, metodos, y tipo de dato String y Fecha.</p>
 					</li>
 					<li>
-						<p>Semana 3: Introduccion a Interfaces, arreglos, y proyectos Maven.</p>
+						<p class="p">Semana 3: Introduccion a Interfaces, arreglos, y proyectos Maven.</p>
 					</li>
 					<li>
-						<p>Semana 4: Enumerados</p>
+						<p class="p">Semana 4: Enumerados</p>
 					</li>
 					<li>
-						<p>Semana 5: Interfaces funcionales</p>
+						<p class="p-end">Semana 5: Interfaces funcionales</p>
 					</li>
 				</ul>
 			</section>
-			<section>
-				<h2>Conceptos basicos de la materia</h2>
-				<h3>Que es JAVA</h3>
-				<p>Es una tecnologia que incluye un lenguaje de programacion y una plataforma de desarrollo</p>
-				<h3>Plataforma JAVA</h3>
-				<p>Por definicion, una plataforma es el ambiente hardware o software sobre el cual se puede ejecutar un programa.</p>
-				<p>La mayoria de las plataformas actuales se pueden describir como una combinacion de un sistema operativo y su hardware subyacente;
+			<section class="section-main">
+				<h2 class="h2">Conceptos basicos de la materia</h2>
+				<h3 class="h3">Que es JAVA</h3>
+				<p class="p">Es una tecnologia que incluye un lenguaje de programacion y una plataforma de desarrollo</p>
+				<h3 class="h3">Plataforma JAVA</h3>
+				<p class="p">Por definicion, una plataforma es el ambiente hardware o software sobre el cual se puede ejecutar un programa.</p>
+				<p class="p">La mayoria de las plataformas actuales se pueden describir como una combinacion de un sistema operativo y su hardware subyacente;
 				por ejemplo, un pc con su sistema operativo Windows se denomina comunmente plataforma Windows, una notebook con
 				una distribucion Linux se denomina plataforma Linux y un celular con Android se conoce como plataforma Android.</p>
-				<p>	La plataforma Java difiere respecto de las plataformas mencionadas en el parrafo anterior
+				<p class="p">La plataforma Java difiere respecto de las plataformas mencionadas en el parrafo anterior
 				debido a que es una plataforma software que se ejecuta sobre las prestaciones que brinda otra
 				plataforma que gestiona el hardware (denominada plataforma base)</p>
-				<p>	Esto significa que se puede montar la plataforma Java sobre cualquier plataforma base.</p>
-				<h3>Introduccion a HTML</h3>
-				<p>	En primer lugar, ¿que significa HTML? Es el acrónimo de Hyper Text Markup Language. Entonces
+				<p class="p">Esto significa que se puede montar la plataforma Java sobre cualquier plataforma base.</p>
+				<h3 class="h3">Introduccion a HTML</h3>
+				<p class="p">En primer lugar, ¿que significa HTML? Es el acrónimo de Hyper Text Markup Language. Entonces
 				ahora la primera pregunta seria ¿Que es un hipertexto? Originalmente el termino hace
 				referencia al texto de un documento que contiene enlaces a otros textos dentro o fuera del
 				documento. Un documento puede apuntar a otro documento que, a su vez, apunta a un monton
 				de otros documentos y a veces estos ultimos se vinculan de nuevo al documento original.</p>
-				<p>Obviamente, en la actualidad estos documentos no solo contienen textos. Gracias a la
+				<p class="p">Obviamente, en la actualidad estos documentos no solo contienen textos. Gracias a la
 				hipermedia estos documentos pueden contener videos, archivos de sonido, etc. La hipermedia
 				es tan solo una extension del hipertexto.</p>
-				<p>A continuacion se mostraran algunos de los conocimientos que se consideran ya aprendidos para poder seguir con la cursada.</p>
-				<h3>Tipos de datos</h3>
-				<table>
+				<p class="p">A continuacion se mostraran algunos de los conocimientos que se consideran ya aprendidos para poder seguir con la cursada.</p>
+				<h3 class="h3">Tipos de datos</h3>
+				<table class="table">
 					<tr>
-						<th>Nombre</th>
-						<th>Representacion</th>
-						<th>Descripcion</th>
+						<th class="th">Nombre</th>
+						<th class="th">Representacion</th>
+						<th class="th">Descripcion</th>
 					</tr>
 					<tr>
-						<td>Entero</td>
-						<td>int</td>
-						<td>Representa un numero entero estandar</td>
+						<td class="td">Entero</td>
+						<td class="td">int</td>
+						<td class="td">Representa un numero entero estandar</td>
 					</tr>
 					<tr>
-						<td>Booleano</td>
-						<td>boolean</td>
-						<td>Representa un valor logico. true o false</td>
+						<td class="td">Booleano</td>
+						<td class="td">boolean</td>
+						<td class="td">Representa un valor logico. true o false</td>
 					</tr>
 					<tr>
-						<td>Caracter</td>
-						<td>char</td>
-						<td>Representa un caracter</td>
+						<td class="td">Caracter</td>
+						<td class="td">char</td>
+						<td class="td">Representa un caracter</td>
 					</tr>
 				</table>
 			</section>
-			<section>
-				<h2>Herramientas utiles para el desarrollo de la materia</h2>
-				<p>Estas herramientas seran utilizadas a traves de toda la cursada.</p>
-				<ul>
+			<section class="section-main">
+				<h2 class="h2-separar">Herramientas utiles para el desarrollo de la materia</h2>
+				<p class="p">Estas herramientas seran utilizadas a traves de toda la cursada.</p>
+				<ul class="ul">
 					<li>
-						<p>Java 17 <a href="https://www.youtube.com/watch?v=TRsCMJrKglw">Como descargar e instalar Java 17</a></p>
+						<p class="p">Java 17: <a href="https://www.youtube.com/watch?v=TRsCMJrKglw">Como descargar e instalar Java 17</a></p>
 					</li>
 					<li>
-						<p>Spring Tool Suite <a href="https://www.youtube.com/watch?v=89Mr-dYcHxA&t=56s">Como descargar e instalar Spring Tools 4</a></p>
+						<p class="p-end">Spring Tool Suite: <a href="https://www.youtube.com/watch?v=89Mr-dYcHxA&t=56s">Como descargar e instalar Spring Tools 4</a></p>
 					</li>
 				</ul>
 			</section>
-			<aside>
+			<aside class="aside">
 				<h2>Contenido adicional relacionado a la materia</h2>
 				<h3>Github</h3>
-				<img src="https://assets-global.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg" width="200" alt="git-logo.jpg">
-				<a href="https://virtual.unju.edu.ar/pluginfile.php/628819/mod_resource/content/3/05%20Libro%20de%20GIT%20%28ProGit%29.pdf">Libro de Git</a>
+				<img  class="img" src="https://assets-global.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg" alt="git-logo.jpg">
+				<a class="aside-a" href="https://virtual.unju.edu.ar/pluginfile.php/628819/mod_resource/content/3/05%20Libro%20de%20GIT%20%28ProGit%29.pdf">Libro de Git</a>
 			</aside>
 		</main>
 		
-		<footer>
+		<footer id="footer">
 			<h3>Informacion de contacto</h3>
 			<p>Email: unjufipv2024@gmail.com</p>
-			<p>Link del aula virtual: <a href="https://virtual.unju.edu.ar/course/view.php?id=2540">Unju Virtual</a></p>
+			<p>Link del aula virtual: <a class="footer-a" href="https://virtual.unju.edu.ar/course/view.php?id=2540">Unju Virtual</a></p>
 			<h3>Redes Sociales</h3>
-			<a href="https://www.facebook.com/fiunju/?locale=es_LA">Facebook</a>
+			<a class="footer-a" href="https://www.facebook.com/fiunju/?locale=es_LA">Facebook</a>
 		</footer>
 	</body>
 </html>
