@@ -1,0 +1,185 @@
+body{
+	margin: 0;
+}
+
+h1, h2, h3{
+	margin: 0 0 0 0;
+}
+
+#header{
+	background-color: beige;
+	text-align: center;
+	font-size: 150%;
+}
+
+.nav-bar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0 0 1% 0;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: royalblue
+}
+
+.main{
+	background-color: whitesmoke;
+}
+
+.section-main{
+	background-color: azure;
+	text-align: center;
+}
+
+.h2{
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 175%;
+}
+
+.h2-separar{
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 175%;
+	padding: 1% 0 0 0;
+}
+
+.h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 150%;
+}
+
+.ul{
+	list-style: none;
+    margin: 0;
+}
+
+.p{
+	font-size: 125%;
+}
+
+.p-end{
+	font-size: 125%;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0 0 1% 0;
+}
+
+.section-main a{
+	text-decoration: none;
+	color: royalblue;
+}
+
+.table{
+	margin: 0 auto 0 auto;
+	border: 3px solid black;
+	font-size: 150%;
+}
+
+.th, td{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	text-align: start;
+}
+
+.aside{
+	background-color: azure;
+	text-align: center;
+	font-size: 115%;
+	padding: 0 0 1% 0;
+}
+
+.img{
+	width: 10%;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.aside-a{
+	text-decoration: none;
+	color: royalblue;
+}
+
+#footer{
+	text-align: center;
+	background-color: beige;
+	padding: 1%;
+}
+
+.footer-a{
+	text-decoration: none;
+	color: royalblue;
+}
+	
+form {
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 1% 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.form-section-botones {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: darkblue;
+}
+
+form p{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.main-form{
+	background-color: whitesmoke;
+	padding: 2% 0;
+}
